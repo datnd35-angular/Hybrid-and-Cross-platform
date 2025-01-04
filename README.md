@@ -6,7 +6,7 @@ Tất nhiên không thể tự dưng mà đem Ionic so sánh với React Native 
 
 Tuy nhiên, nếu ứng dụng không đặt nặng về việc tương tác phần cứng thiết bị (các tính năng native như GPS, Bluetooth, NFC...), hoặc không yêu cầu quá cao về mặt hiệu suất, thì Ionic là lựa chọn rất đáng xem xét, vì có lợi về mặt chi phí, hiệu quả cũng như thời gian phát triển sản phẩm.
 
-Ionic - CapacitorJS là gì?
+**Ionic - CapacitorJS là gì?**
 
 ![image](https://github.com/user-attachments/assets/fdc418ca-573c-4a37-8b32-c7ad5210735d)
 
