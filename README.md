@@ -2,21 +2,21 @@
 
 Mỗi khi nhắc đến lập trình mobile đa nền tảng (iOS & Android), hầu hết mọi người sẽ nghĩ đến React Native hoặc Flutter. Có một lựa chọn khác đang bị underrated nhưng thực chất vô cùng tiềm năng, đó chính là Ionic Framework.
 
-Tất nhiên không thể tự dưng mà đem Ionic so sánh với React Native hay Flutter được, vì chúng thuộc 2 loại framework khác nhau: một bên là Hybrid sử dụng WebView để load và chạy HTML, một bên là Cross-platform build toàn bộ app thành các native control tương ứng với platform. Tùy vào mỗi loại nghiệp vụ mà chúng sẽ phát huy thế mạnh khác nhau.
+Tất nhiên không thể tự dưng mà đem Ionic so sánh với React Native hay Flutter được, vì chúng thuộc 2 loại framework khác nhau: một bên là `Hybrid sử dụng WebView để load và chạy HTML`, một bên là `Cross-platform build toàn bộ app thành các native control tương ứng với platform`. Tùy vào mỗi loại nghiệp vụ mà chúng sẽ phát huy thế mạnh khác nhau.
 
-Tuy nhiên, nếu ứng dụng không đặt nặng về việc tương tác phần cứng thiết bị (các tính năng native như GPS, Bluetooth, NFC...), hoặc không yêu cầu quá cao về mặt hiệu suất, thì Ionic là lựa chọn rất đáng xem xét, vì có lợi về mặt chi phí, hiệu quả cũng như thời gian phát triển sản phẩm.
+Tuy nhiên, nếu ứng dụng không đặt nặng về việc tương tác phần cứng thiết bị (các tính năng native như `GPS, Bluetooth, NFC`...), hoặc không yêu cầu quá cao về mặt hiệu suất, thì `Ionic` là lựa chọn rất đáng xem xét, vì có lợi về mặt chi phí, hiệu quả cũng như thời gian phát triển sản phẩm.
 
-**Ionic - CapacitorJS là gì?**
+**Ionic - Capacitor là gì?**
 
 ![image](https://github.com/user-attachments/assets/fdc418ca-573c-4a37-8b32-c7ad5210735d)
 
 [Link]()
 
 ## 1. Learning Curve
-Ionic được xem là loại framework "mì ăn liền" dành cho dân front-end để viết app mobile. Bởi cơ chế Hybrid, ứng dụng mobile lúc này không khác gì một ứng dụng web thông thường.
+Ionic được xem là loại framework `mì ăn liền` dành cho dân front-end để viết app mobile. Bởi cơ chế `Hybrid`, ứng dụng mobile lúc này không khác gì một ứng dụng web thông thường.
 
-- Đầu tiên cần tìm hiểu bộ CLI và các component có sẵn. Chúng chỉ đơn thuần là các web component, được Ionic hỗ trợ ở cả 3 dạng là Angular, React, Vue, và cả vanilla JavaScript.
-- Tiếp theo, cần tìm hiểu về thư viện CapacitorJS để tạo ra thư mục project iOS hoặc Android tương ứng. Khi đã có thư mục project iOS và Android, quá trình clean build ra file `.ipa` và `.apk` là như nhau cho dù chúng ta sử dụng framework nào đi chăng nữa.
+- Đầu tiên cần tìm hiểu bộ `CLI và các component` có sẵn. Chúng chỉ đơn thuần là các `web component`, được Ionic hỗ trợ ở cả 3 dạng là `Angular, React, Vue`, và cả JavaScript.
+- Tiếp theo, cần tìm hiểu về thư viện `Capacitor` để tạo ra thư mục project `iOS` hoặc `Android` tương ứng. Khi đã có thư mục project iOS và Android, quá trình clean build ra file `.ipa` và `.apk` là như nhau cho dù chúng ta sử dụng framework nào đi chăng nữa.
 
 Như vậy, xét về khả năng lĩnh hội, Ionic tốn ít chi phí nhất để tìm hiểu và biết cách sử dụng, nếu đem so sánh với React Native hoặc Flutter.
 
@@ -44,9 +44,9 @@ Trong khi đó, React Native và Flutter biên dịch thành các native control
 
 Tuy nhiên, Hybrid app có thật sự "chuối" như giang hồ vẫn hay đồn đại?
 
-Bản thân tác giả trước đây luôn dè bỉu dòng framework này, thời mà PhoneGap vẫn còn nổi tiếng và Ionic vẫn chưa được nhiều người biết đến. Khi dự án ở công ty yêu cầu làm app mobile, tác giả chọn ngay React Native mà không cần suy nghĩ.
+Bản thân nhiều người trước đây luôn dè bỉu dòng framework này, thời mà PhoneGap vẫn còn nổi tiếng và Ionic vẫn chưa được nhiều người biết đến. Khi dự án ở công ty yêu cầu làm app mobile, nhiều người chọn ngay React Native mà không cần suy nghĩ.
 
-- Đến app mobile thứ hai, tác giả chuyển sang Ionic Angular do team có 3 front-end Angular nhưng không ai biết React Native. 
+- Đến app mobile khác, team chuyển sang Ionic Angular do team có 3 front-end Angular nhưng không ai biết React Native. 
 - Khi chạy thử trên virtual device, Ionic có một khoảng lag rõ rệt và chậm hơn React Native. Tuy nhiên, sau khi build, publish và chạy trên thiết bị vật lí, hầu như không nhận ra sự khác biệt giữa app React Native và app Ionic. Các thao tác scroll, navigate, pan & zoom, các hiệu ứng animation... đều mượt và nhạy như nhau.
 
 > "The performance of the Ionic application is not as good as compared to native mobile applications. However, the performance gap is not noticeable for most of the average users." - trích từ javatpoint.com
@@ -62,11 +62,11 @@ Nếu bạn có ý định tìm hiểu Ionic, hoặc đã làm việc với Ioni
 ## 4. Native features
 Bên cạnh performance thì đây là yếu tố thứ hai khiến nhiều người loại bỏ Ionic ra khỏi cuộc chơi ngay từ đầu.
 
-Thực ra, Ionic chỉ bao gồm các UI components. Khả năng tương tác với phần cứng được quyết định bởi Cordova & CapacitorJS. Các tính năng phần cứng được cung cấp thông qua các plugin JavaScript.
+Thực ra, Ionic chỉ bao gồm các UI components. Khả năng tương tác với phần cứng được quyết định bởi `Cordova` & `Capacitor`. Các tính năng phần cứng được cung cấp thông qua các plugin JavaScript.
 
-- Số lượng các plugin của Cordova nhiều và ổn định hơn CapacitorJS, nhưng CapacitorJS hiện đang được cộng đồng hỗ trợ mạnh mẽ, và bất kỳ plugin Cordova nào cũng có thể import để sử dụng trong CapacitorJS.
+- Số lượng các plugin của Cordova nhiều và ổn định hơn `Capacitor`, nhưng `Capacitor` hiện đang được cộng đồng hỗ trợ mạnh mẽ, và bất kỳ plugin Cordova nào cũng có thể import để sử dụng trong `Capacitor`.
 
-Như vậy, số lượng tính năng phần cứng của Ionic sẽ bị phụ thuộc vào khả năng hỗ trợ của Cordova & CapacitorJS. Tuy nhiên, tính đến thời điểm hiện tại, số lượng tính năng được hỗ trợ cũng nhiều đủ để xây dựng gần như bất kỳ ứng dụng mobile nào: Push Notification, Camera, Storage, GPS, Barcode Scan, Bluetooth, Map...
+Như vậy, số lượng tính năng phần cứng của Ionic sẽ bị phụ thuộc vào khả năng hỗ trợ của `Cordova` & `Capacitor`. Tuy nhiên, tính đến thời điểm hiện tại, số lượng tính năng được hỗ trợ cũng nhiều đủ để xây dựng gần như bất kỳ ứng dụng mobile nào: Push Notification, Camera, Storage, GPS, Barcode Scan, Bluetooth, Map...
 
 
 ## 5. Development
